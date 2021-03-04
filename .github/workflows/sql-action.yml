@@ -2,9 +2,12 @@
 on: [push]
 
 jobs:
-  build:
+  
+  deploy:
     runs-on: windows-latest
     steps:
+    - name: 'Checking out repo code'
+      uses: actions/checkout@v2
     - uses: actions/checkout@v1
 #    - uses: azure/login@v1
 #      with:
