@@ -1,1 +1,1 @@
-show databases
+EXEC sp_databases
