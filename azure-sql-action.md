@@ -12,7 +12,7 @@ https://github.com/Azure/sql-action
 
 ## Executables used
 - **[SqlPackage.exe]**
-  - For publishing the database scheme in the `.dacpac` file
+  - For publishing the database schema in the `.dacpac` file
   - Doc: https://docs.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage?view=sql-server-ver15
   - SqlPackage.exe supports many actions like Publish, Export, Import etc. Currently we only support `Publish` action which incrementally updates a database schema to match the schema of a source .dacpac file
 
