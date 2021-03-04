@@ -10,6 +10,9 @@ https://github.com/Azure/sql-action
 ## Limitation
 - Supported only in Windows runner today
 
+## Dependencies 
+- Dependent on Azure login action if the runner does not have access to SQL Server. 
+
 ## Executables used
 - **[SqlPackage.exe]**
   - For publishing the database schema in the `.dacpac` file
