@@ -17,6 +17,8 @@ https://github.com/Azure/sql-action
   - SqlPackage.exe supports many actions like Publish, Export, Import etc. Currently we only support `Publish` action which incrementally updates a database schema to match the schema of a source .dacpac file
 
 - **[SqlCmd.exe]**
+  - For running SQL files 
+  - Doc: https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-ver15#syntax 
 
 ## Action inputs
 - Refer [action.yml](https://github.com/Azure/sql-action/blob/master/action.yml)
